@@ -23,7 +23,6 @@ body{
 
 .clg-title {
   text-align: center;
-  text-align: center;
 }
 
 .btn-section {
@@ -65,6 +64,10 @@ ul li a:hover {
   color: black;
   text-decoration: none;
 }
+
+
+
+
 .container {
   margin-bottom: 100px;
 }
@@ -123,7 +126,7 @@ footer{
 .address-container{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: absolute;
   width: 1300px;
   top: 30%;
