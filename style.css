@@ -14,7 +14,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .logo img {
@@ -65,17 +64,53 @@ ul li a:hover {
 .nav-btn {
   color: black;
   text-decoration: none;
+}
+.container {
+  margin-bottom: 300px;
+}
 
-}
-.about{
+.about {
   display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
   align-items: center;
-  gap: 50px;
-  margin-bottom: 100px;
+  gap: 40px;
 }
-.about-img{
-  width: 550px;
+
+.about {
+  padding-top: 50px;
+}
+
+.about-title {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.about-desc {
+  font-size: 18px;
+  margin-bottom: 40px;
+  width: 700px;
+  color: rgb(121, 123, 126);
+}
+
+.about-btn {
+  padding: 15px 40px;
   border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #00ffff;
+}
+
+.about-btn:hover {
+  background-color: #224e4e5e;
+  transform: scale(1.1);
+}
+
+.about-img {
+  width: 500px;
+  border-radius: 10px;
 }
 
 footer{
@@ -107,7 +142,7 @@ footer{
 
 
 
-/* 
+
 
 
 
@@ -115,4 +150,4 @@ footer{
   .about-img{
     width: 400px;
   }
-} */
+}
