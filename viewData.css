@@ -1,0 +1,23 @@
+@import url("style.css");
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto 150px;
+
+}
+
+tbody{
+  background-color: rgba(208, 228, 228, 0.781);
+
+}
+th{
+  border: 1px solid black;
+  height: 50px;
+  color: whitesmoke;
+  line-height: 15px;
+  background-color: #2874A6;
+}
+td{
+  border: 1px solid black;
+  padding: 20px 80px;
+}
